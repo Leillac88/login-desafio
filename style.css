@@ -1,0 +1,26 @@
+/* Estilos personalizados adicionais */
+body {
+    background-color: #121212;
+  }
+  
+  /* Estilo personalizado para o foco nos inputs */
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #4b5563;
+    border-color: transparent !important;
+  }
+  
+  /* Transições suaves */
+  a, button, input {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Ajustes para o checkbox */
+  input[type="checkbox"] {
+    cursor: pointer;
+  }
+  
+  /* Ajustes para o botão de login no hover */
+  button:hover {
+    transform: translateY(-1px);
+  }
